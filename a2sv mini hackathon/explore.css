@@ -1,20 +1,43 @@
+*{
+    align-items: center;
+}
+body{
+    
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the body takes the full viewport height */
+}
 .nav {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    
+    /* border: 5px solid #0b0c0c; */
+    width: 100%;
 }
 
 .nav p {
-    margin: 0;
+    margin-top: 0px;
     color: black;
     font-size: 24px;
+    margin-left: 50px;
+
+}
+.nav .Eth{
+    color:rgb(228, 127, 33);
+    position: relative;
+    left: -190px;
+    
 }
 
 .nav .link {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .nav .link a {
@@ -33,8 +56,11 @@
     border-radius: 50%;
 }
 .search{
+   
+    position: relative;
+    left: -200px;
     height: 47px;
-    width: 35%;
+    width: 45%;
     border-radius: 37px;
     border: 1px solid black;
     text-align: center;
@@ -44,17 +70,30 @@
    align-items: center;
    padding-left: 10px;
    margin-left: 35%;
+   
+}
+.search p{
+    font-family:serif;
+    font-size: 20px;
+    left: 10px;
+    position: relative;
+    color: gray;
 }
 .content{
     padding-left: 200px;
     padding-top: 150px;
+    /* border: 5px solid #0b0c0c; */
+    justify-content:space-between;
 }
 .main{
     display: flex;
     margin-bottom: 80px;
+    position: relative;
+    left: 50px
+    
 }
 .main img{
-width: 550px;
+width: 400px;
 height: 346px;
 border-radius: 28px;
 margin-right: 230px;
@@ -67,6 +106,18 @@ margin-right: 230px;
     height: 62px;
     background: #326F4E;
     border-radius: 50%;
+}
+.fa-pen-to-square{
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    font-size: 25px;
+}
+.fa-search{
+    position: relative;
+    left: 540px;
+    /* top: 15px; */
 }
 .Title{
     width: 255px;
@@ -90,6 +141,38 @@ margin-right: 230px;
     line-height: 22px;
     color: #000000;
 }
+.description, .icon,.Title{
+    position: relative;
+    top: 50px;
+}
+.rating ,.level{
+    font-weight: bold;
+}
+.level{
+    /* border: 5px solid black; */
+    position: relative;
+    top:28px
+   
+}
+.mod{
+    color:rgb(228, 127, 33);
+    position: relative;
+    left: 50px;
+    bottom: 33px;
+    
+}
+.Yerer{
+    margin-left: -20px;
+}
+.yer {
+    
+    position: relative;
+    right: 100px;
+}
+.ento{
+    margin-left: -7px;
+}
+
 .d{
     display: flex;
 }
@@ -97,6 +180,7 @@ margin-right: 230px;
     float: left;
     margin-right: 30px;
 }
+
 .des1{
     float: left;
     margin-right: 350px;
@@ -109,12 +193,15 @@ margin-right: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 120px;
+    margin-top: 20px;
 }
 .linkdes a {
     color: white; 
     text-decoration: none; 
     font-size: 16px; 
     display: inline-block; 
+    
 }
 
 /* Chevron Right */
@@ -125,8 +212,9 @@ height: 56px;
 }
 
 .footer {
-    margin-top: 100px;
-    width: 100%;
+    /* border: solid 5px black; */
+    margin-top: 250px;
+    width: 100vw;
     height: 275.2px;
     background: #186759;
     transform: rotate(6.75deg);
@@ -134,11 +222,12 @@ height: 56px;
     z-index: 1;
     display: flex;
     align-items: center;
+    margin-left: -15px;
 }
 
 .circle {
-    width: 344.22px; 
-    height: 381.83px; 
+    width: 260.22px; 
+    height: 350.83px; 
     background: #7D1616;
     border-radius: 50%;
     z-index: 0;
@@ -150,12 +239,23 @@ height: 56px;
     font-size:35px ;
     float: left;
     margin-right: 350px;
+    margin-left: 30px;
+}
+.circle p{
+    position: relative;
+    font-size: 25px;
+    margin-left: -15px;
+    top: 10px;
 }
 .info{
     transform: rotate(-6.75deg);
     display: flex;
     color: white;
+    
     margin-top: -20px;
+}
+.info1{
+    margin-bottom: 100px;
 }
 .bi-twitter{
     margin-right: 30px;
@@ -166,7 +266,6 @@ height: 56px;
 .info p{
     margin-right: 150px;
 }
-
 
 
 
