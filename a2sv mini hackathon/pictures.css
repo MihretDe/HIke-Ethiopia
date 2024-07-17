@@ -1,0 +1,128 @@
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* border: 5px solid #0b0c0c; */
+    width: 100%;
+}
+
+.nav p {
+    margin-top: 0px;
+    color: black;
+    font-size: 24px;
+    margin-left: 50px;
+
+}
+.nav .Eth{
+    color:rgb(228, 127, 33);
+    /* position: relative;
+    left: -190px; */
+    
+}
+
+.nav .link {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav .link a {
+    color: black;
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+.nav .link a:hover {
+    text-decoration: underline;
+}
+.nav img{
+    width: 95px;
+    height: 88px;
+    border-radius: 50%;
+}
+.content{
+    width: 90%;
+    margin-left: 5%;
+}
+.row img{
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 50px;
+    height: 450px;
+    
+}
+.col{
+    margin-right: 70px;
+}
+.footer {
+    /* border: solid 5px black; */
+    margin-top: 250px;
+    width: 100vw;
+    height: 275.2px;
+    background: #186759;
+    transform: rotate(6.75deg);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.circle {
+    width: 260.22px; 
+    height: 350.83px; 
+    background: #7D1616;
+    border-radius: 50%;
+    z-index: 0;
+    transform: rotate(-6.75deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:35px ;
+    float: left;
+    margin-right: 350px;
+    margin-left: 30px;
+}
+.circle p{
+    position: relative;
+    font-size: 25px;
+    margin-left: -15px;
+    top: 10px;
+}
+.info{
+    transform: rotate(-6.75deg);
+    display: flex;
+    color: white;
+    
+    margin-top: -20px;
+}
+.info1{
+    margin-bottom: 100px;
+}
+.bi-twitter{
+    margin-right: 30px;
+}
+.bi-telephone{
+    margin-right: 30px;
+}
+.info p{
+    margin-right: 150px;
+}
+p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C28523;
+}
